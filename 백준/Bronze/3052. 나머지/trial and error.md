@@ -17,14 +17,12 @@
 
 ### 알게된 것
    - set을 사용하는 방법 말고 다른 방법을 찾아봤다
-     for문을 사용하는 방법인데 리스트를 하나 더 생성하여 if A not in B를 활용하는 것이다.
-   -     arr = [6, 5, 6, 4, 4, 1, 1, 2, 3, 9, 8, 7, 9, 8, 7]
-         result = [] # 중복 제거된 값들이 들어갈 리스트
-
-         for value in arr:
-            if value not in result:
-              result.append(value)
-
-         print(result)
+     for문을 사용하는 방법인데 if A not in B를 활용하는 것이다.
+   -     arr = []
+         for i in range(10):
+            a = int(input())
+            if a%42 not in arr:
+              arr.append(a % 42)
+         print(len(arr))
 
      
