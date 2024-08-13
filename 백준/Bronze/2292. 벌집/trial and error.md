@@ -9,3 +9,4 @@
 
 ### 알게된 것
  - 시간 초과가 발생했을 때 빈 리스트에 append하는 것보다 deque를 사용하는 것이 시간적으로 이득이라고 하는데 한 번 공부해봐야겠다고 생각했다
+ - https://velog.io/@eunchae2000/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0-%EB%8D%B1Deque
