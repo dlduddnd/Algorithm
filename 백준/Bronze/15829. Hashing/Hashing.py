@@ -9,4 +9,4 @@ for tmp in string:
     sum = sum + ((ord(tmp)-96) * (31 ** i))
     i += 1 
 
-print(sum)
+print(sum%1234567891)
