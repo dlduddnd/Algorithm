@@ -5,4 +5,9 @@
  - 오류는 발생하지 않았다.
 
 ### 알게된 것
- - 알게된 것은 따로 없었다.
+ - pop을 두번 사용하지 않고 값이 0이면 pop을 사용하고 그렇지 않으면 입력받은 수를 append하는 식의 로직도 구성해볼 수 있다
+ -     if(num == 0): #num이 0이면 pop
+          stk.pop()
+        else:
+          stk.append(num) #그게 아니라면 append = push
+
