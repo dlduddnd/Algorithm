@@ -14,9 +14,9 @@ for tmp1 in range(b):
     k.add(input())
 
 p = l&k
-p = list(p)
+p = sorted(p)
 
 print(len(p))
 
-for tmp2 in sorted(p):
+for tmp2 in p:
     print(tmp2)
