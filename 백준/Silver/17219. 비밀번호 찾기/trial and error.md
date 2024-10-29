@@ -5,8 +5,8 @@
  - 비밀번호를 매핑시켜주는 for문을 구현할 때 이중for문을 사용하는 방법밖에 생각나지 않아 시간초과가 여러번 발생했다
    ```
    for tmp in range(b):
-    y = sys.stdin.readline().rstrip()
-    print(d[y])
+      y = sys.stdin.readline().rstrip()
+      print(d[y])
    ```
    이렇게 간단히 풀 수 있었는데 말이다
 
