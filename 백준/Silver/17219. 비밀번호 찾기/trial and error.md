@@ -14,7 +14,7 @@
  - 딕셔너리로 풀어야된다는 것을 알고 있었지만 머릿속에 있는 동작을 코드로 구현하는 방식에 아직 부족함을 느꼈다.
  - 입력을 공백을 기준으로 나누어 변수에 할당하고 싶으면
    ```
-       x = sys.stdin.readline().rstrip()
+    x = sys.stdin.readline().rstrip()
     g,h = x.split()
    ```
    이렇게 해주면 된다
